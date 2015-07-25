@@ -1,0 +1,182 @@
+/*-----------------
+| Default
+------------------*/
+#container{
+	width: 230px;
+	height: 320px;
+
+	width:230px; 
+	margin: 0 auto;
+
+	position: relative;
+	background-color:  #CFEBFF;
+}
+/*-----------------
+| Game
+------------------*/
+#tic-tac-toe .disable {
+	text-transform:uppercase; 
+	font-size:30px; 
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+#tic-tac-toe #game li {
+	list-style:none; 
+	text-align:center; 
+
+	height:60px; 
+	line-height:60px; 
+	font-size:40px; 
+	color: #3C6BA7;
+
+	width: 70px;
+
+	padding-top: 0px;
+	margin-bottom:7px; 
+}
+#tic-tac-toe #game li.disable {
+	color:#fff;
+
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+#tic-tac-toe #game {
+	float:left; 
+	padding:0; 
+	clear:both;
+}
+/*.new_span {
+	width:226px;
+}*/
+#tic-tac-toe #reset, #back{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:20px; 
+
+	background-color: #314F91;
+	width:205px;
+
+	float:left;
+	padding:0px; 
+	clear:both; 
+
+	color:#fff; 
+	cursor:pointer; 
+ 
+	text-align:center; 
+	text-transform:uppercase;
+
+	border: none;
+	outline:none; 
+}
+.clr {
+	clear:both; 
+	height:0;
+}
+/*------------------------THEME START-------------------------*/
+#tic-tac-toe {
+	background-color: #CFEBFF;
+}
+/*-----------------
+| .btn-primary
+------------------*/
+#tic-tac-toe #game li.disable.btn-primary {
+	color:#fff;
+}
+.btn-primary {
+	background-color: ;
+}
+
+/*-----------------
+| .btn-info
+------------------*/
+#tic-tac-toe #game li.disable.btn-info {
+	color:#3867A7;
+}
+#tic-tac-toe #game li.disable.btn-info  {
+	background-color: #A2CBE6;
+	border: #84A7C0;
+}
+#tic-tac-toe #game li.disable.btn-info:hover {
+	background-color: #66A1C1;
+}
+#tic-tac-toe #game li.disable.btn-info:active{
+	background-color: #66A1C1;
+}
+
+#tic-tac-toe #game li.disable.btn-info:focus{
+	background-color: #66A1C1;
+}
+
+/*------------------------THEME END-------------------------*/
+
+/*-----------------
+| Webkits
+------------------*/
+#tic-tac-toe li::-moz-selection {
+	background:none;
+	color:#000;
+}
+#tic-tac-toe li::-webkit-selection {
+	background:none;
+	color:#000;
+}
+
+/*-----------------
+| Text
+------------------*/
+.whole {
+	float: left;
+	text-align: center;
+
+	width: 100px;
+
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.input-append .win_times { 
+	width:101px;
+	margin: 5px;
+}
+h1 {
+	width: 220px;
+
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#game {
+	margin-left: 5px;
+}
+
+/*-----------------
+| Links
+------------------*/
+#reset, #back {
+	margin-left: 10px;
+}
+#back {
+	margin-top: 5px;
+}
+#pvp, #pve, #theme, #fB, #home {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:20px; 
+
+	background-color: #314F91;
+	width:205px;
+
+	margin: 10px;
+	clear:both; 
+
+	color:#fff; 
+	cursor:pointer; 
+ 
+	text-align:center; 
+	text-transform: none;
+
+	border: none;
+	outline:none; 
+}
+}
