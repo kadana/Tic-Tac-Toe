@@ -7,39 +7,27 @@
 	</head>
 	<body>
 		<div id="container">
-			<div id="tic-tac-toe">
-				<div class="span3 new_span">
-				    <div class="row">
-					    <div class="span3">
-					        <div class="input-prepend input-append whole">
-					          <span class="add-on win_text">O won</span><strong id="o_win" class="win_times add-on">0</strong>
-					   		</div>
-					        <div class="input-prepend input-append whole">
-					          <span class="add-on win_text">X won</span><strong id="x_win" class="win_times add-on">0</strong>
-					        </div>
-				    </div>
-
-				</div>
-
+		    <div id="board-outer" class="center">
+			        <table id="board">
+			            <tr class="row">
+			                <td id="a1"></td>
+			                <td id="a2"></td>
+			                <td id="a3"></td>
+			            </tr>
+			            <tr class="row">
+			                <td id="b1"></td>
+			                <td id="b2"></td>
+			                <td id="b3"></td>
+			            </tr>
+			            <tr class="row">
+			                <td id="c1"></td>
+			                <td id="c2"></td>
+			                <td id="c3"></td>
+			            </tr>
+			        </table>
 			</div>
-				    <ul class="row" id="game">
-				      <li id="one" class="btn span1" >+</li>
-				      <li id="two" class="btn span1">+</li>
-				      <li id="three" class="btn span1">+</li>
-				      <li id="four" class="btn span1">+</li>
-				      <li id="five" class="btn span1">+</li>
-				      <li id="six" class="btn span1">+</li>
-				      <li id="seven" class="btn span1">+</li>
-				      <li id="eight" class="btn span1">+</li>
-				      <li id="nine" class="btn span1">+</li>
-				    </ul>
-				    <div class="clr">&nbsp;</div>
-				   		 <div class="row">
-				    		<a href="#" id="reset" class="btn-success btn span3" >Restart</a>
-				    		<a href="index.html" id="back" class="btn-success btn span3" >Back</a>
-				    	</div>
-					</div>
-				</div>
+		        <button id="restart" class="back reset">New game</button>
+		        <a href="index.html" id="back" class="btn-success btn span3" >Back</a>
 		</div>
 		<script type="text/javascript" src="_js/jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="_js/bootstrap.min.js"></script>
