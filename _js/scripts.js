@@ -265,23 +265,28 @@ checkWin = function () { // CHECKS IF X WON
             winAlert();
 
         } else { // CHECKS FOR TIE GAME IF ALL CELLS ARE FILLED
-            if (((a1 == "x") || (a1 == "o")) && ((b1 == "x") || (b1 == "o")) && ((c1 == "x") || (c1 == "o")) && ((a2 == "x") || (a2 == "o")) && ((b2 == "x") || (b2 == "o")) && ((c2 == "x") || (c2 == "o")) && ((a3 == "x") || (a3 == "o")) && ((b3 == "x") || (b3 == "o")) && ((c3 == "x") || (c3 == "o"))) {
+            if (((a1 == "x") || (a1 == "o")) && ((b1 == "x") || 
+                (b1 == "o")) && ((c1 == "x") || (c1 == "o")) && 
+                ((a2 == "x") || (a2 == "o")) && ((b2 == "x") || 
+                (b2 == "o")) && ((c2 == "x") || (c2 == "o")) && 
+                ((a3 == "x") || (a3 == "o")) && ((b3 == "x") || 
+                (b3 == "o")) && ((c3 == "x") || (c3 == "o"))) {
                 alert("It's a tie!");
-            }
-        }
-    }
-};
+                alert = function(){};
+                alert("It's a tie!");
+                            }
+                        }
+                    }
+                };
 
 
 // DECLARES WHO WON
 var winAlert = function () {
     if (xWin == true) {
         alert("You won!");
-        clearBoard(); // THIS DOESN'T WORK
     } else {
         if (oWin == true) {
             alert("Sorry, you lose!");
-            clearBoard(); // THIS DOESN'T WORK
         }
     }
 };
