@@ -8,7 +8,7 @@
 	margin: 0 auto;
 
 	position: relative;
-	background-color:  #CFEBFF;
+	background-color:  #C5FFDA;
 }
 /*-----------------
 | Game
@@ -25,7 +25,7 @@
 	height:60px; 
 	line-height:60px; 
 	font-size:40px; 
-	color: #3C6BA7;
+	color: #053901;
 
 	width: 85px;
 
@@ -52,7 +52,7 @@
 	font-family:Arial, Helvetica, sans-serif; 
 	font-size:20px; 
 
-	background-color: #314F91;
+	background-color: #14523B;
 	width:92%;
 
 	float:left;
@@ -78,33 +78,47 @@
 }
 /*------------------------THEME START-------------------------*/
 #tic-tac-toe {
-	background-color: #CFEBFF;
+	background-color: #C5FFDA;
 }
 /*-----------------
 | .btn-primary
 ------------------*/
 #tic-tac-toe #game li.disable.btn-primary {
-	color:#fff;
+	color:#8EE691;
+}
+#tic-tac-toe #game li.disable.btn-primary  {
+	background-color: #053901;
+	border: #053901;
+}
+#tic-tac-toe #game li.disable.btn-primary:hover {
+	background-color: #053901;
+}
+#tic-tac-toe #game li.disable.btn-primary:active{
+	background-color: #053901;
+}
+
+#tic-tac-toe #game li.disable.btn-primary:focus{
+	background-color: #053901;
 }
 /*-----------------
 | .btn-info
 ------------------*/
 #tic-tac-toe #game li.disable.btn-info {
-	color:#3867A7;
+	color:#053901;
 }
 #tic-tac-toe #game li.disable.btn-info  {
-	background-color: #A2CBE6;
-	border: #84A7C0;
+	background-color: #8EE691;
+	border: #8EE691;
 }
 #tic-tac-toe #game li.disable.btn-info:hover {
-	background-color: #66A1C1;
+	background-color: #8EE691;
 }
 #tic-tac-toe #game li.disable.btn-info:active{
-	background-color: #66A1C1;
+	background-color: #8EE691;
 }
 
 #tic-tac-toe #game li.disable.btn-info:focus{
-	background-color: #66A1C1;
+	background-color: #8EE691;
 }
 
 /*------------------------THEME END-------------------------*/
@@ -154,8 +168,8 @@ h1 {
 	margin-left: 5px;
 }
 .title {
-	color: #314F91;
-	border-bottom: solid 2px #314F91;
+	color: #14523B;
+	border-bottom: solid 2px #14523B;
 	margin-bottom: 5%;
 }
 /*-----------------
@@ -171,7 +185,7 @@ h1 {
 	font-family:Arial, Helvetica, sans-serif; 
 	font-size:20px; 
 
-	background-color: #314F91;
+	background-color: #14523B;
 	width:90%;
 
 	margin-left: 5%;
@@ -200,7 +214,7 @@ h1 {
     font-family:Arial, Helvetica, sans-serif; 
 	font-size:20px; 
 
-	background-color: #314F91;
+	background-color: #14523B;
 	width:92%;
 
 	float:left;
@@ -240,9 +254,9 @@ td {
     font-family: sans-serif;
     font-size: 40pt;
     border-collapse: collapse;
-    border: 2px solid #B9E9F0;
+    border: 2px solid #8EE691;
     text-transform: uppercase;
-    color: #999999;
+    color: #053901;
 }
 .x {
     width: 100%;

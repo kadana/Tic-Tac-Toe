@@ -8,7 +8,7 @@
 	margin: 0 auto;
 
 	position: relative;
-	background-color:  #CFEBFF;
+	background-color:  #FAE7FF;
 }
 /*-----------------
 | Game
@@ -25,7 +25,7 @@
 	height:60px; 
 	line-height:60px; 
 	font-size:40px; 
-	color: #3C6BA7;
+	color: #833D91;
 
 	width: 85px;
 
@@ -52,7 +52,7 @@
 	font-family:Arial, Helvetica, sans-serif; 
 	font-size:20px; 
 
-	background-color: #314F91;
+	background-color: #833D91;
 	width:92%;
 
 	float:left;
@@ -78,7 +78,7 @@
 }
 /*------------------------THEME START-------------------------*/
 #tic-tac-toe {
-	background-color: #CFEBFF;
+	background-color: #FAE7FF;
 }
 /*-----------------
 | .btn-primary
@@ -86,25 +86,42 @@
 #tic-tac-toe #game li.disable.btn-primary {
 	color:#fff;
 }
+.btn-primary{
+	border: none;
+	color: #fff;
+	background-color: #833D91;
+}
+#tic-tac-toe #game li.disable.btn-primary:hover {
+	background-color: #833D91;
+}
+#tic-tac-toe #game li.disable.btn-primary:active{
+	background-color: #833D91;
+}
+
+#tic-tac-toe #game li.disable.btn-primary:focus{
+	background-color: #833D91;
+}
 /*-----------------
 | .btn-info
 ------------------*/
-#tic-tac-toe #game li.disable.btn-info {
-	color:#3867A7;
+.btn-info {
+	color: #fff !important;
+	background-color:#F7A1F9;
+	border: none;
 }
-#tic-tac-toe #game li.disable.btn-info  {
-	background-color: #A2CBE6;
-	border: #84A7C0;
+#tic-tac-toe #game li.disable.btn-info{
+background-color:#F7A1F9!important;
+color: #fff!important; 
 }
 #tic-tac-toe #game li.disable.btn-info:hover {
-	background-color: #66A1C1;
+	background-color:#F7A1F9;
 }
 #tic-tac-toe #game li.disable.btn-info:active{
-	background-color: #66A1C1;
+	background-color:#F7A1F9;
 }
 
 #tic-tac-toe #game li.disable.btn-info:focus{
-	background-color: #66A1C1;
+	background-color:#F7A1F9;
 }
 
 /*------------------------THEME END-------------------------*/
@@ -154,8 +171,8 @@ h1 {
 	margin-left: 5px;
 }
 .title {
-	color: #314F91;
-	border-bottom: solid 2px #314F91;
+	color: #833D91;
+	border-bottom: solid 2px #833D91;
 	margin-bottom: 5%;
 }
 /*-----------------
@@ -171,7 +188,7 @@ h1 {
 	font-family:Arial, Helvetica, sans-serif; 
 	font-size:20px; 
 
-	background-color: #314F91;
+	background-color: #833D91;
 	width:90%;
 
 	margin-left: 5%;
@@ -200,7 +217,7 @@ h1 {
     font-family:Arial, Helvetica, sans-serif; 
 	font-size:20px; 
 
-	background-color: #314F91;
+	background-color: #833D91;
 	width:92%;
 
 	float:left;
@@ -240,9 +257,9 @@ td {
     font-family: sans-serif;
     font-size: 40pt;
     border-collapse: collapse;
-    border: 2px solid #B9E9F0;
+    border: 2px solid #AEA0F0;
     text-transform: uppercase;
-    color: #999999;
+    color: #601699;
 }
 .x {
     width: 100%;
@@ -270,9 +287,11 @@ td {
 ------------------*/
 .rowStyle {
     border-collapse: collapse;
-    border: 2px solid #B9E9F0;
+    border: 2px solid #AEA0F0;
     text-transform: uppercase;
-    color: #999999;
+    color: #601699;
 }
 
-}
+/*-----------------
+| Overwritten styles
+------------------*/

@@ -49,7 +49,7 @@ $('#game li').click(function(){
       $(this).addClass('disable o btn-primary')
 	    if ($("#one").hasClass('o') && $("#two").hasClass('o') && $("#three").hasClass('o') || $("#four").hasClass('o') && $("#five").hasClass('o') && $("#six").hasClass('o') || $("#seven").hasClass('o') && $("#eight").hasClass('o') && $("#nine").hasClass('o') || $("#one").hasClass('o') && $("#four").hasClass('o') && $("#seven").hasClass('o') || $("#two").hasClass('o') && $("#five").hasClass('o') && $("#eight").hasClass('o') || $("#three").hasClass('o') && $("#six").hasClass('o') && $("#nine").hasClass('o') || $("#one").hasClass('o') && $("#five").hasClass('o') && $("#nine").hasClass('o') || $("#three").hasClass('o') && $("#five").hasClass('o') && $("#seven").hasClass('o'))
 	    {
-	   alert('O wins')
+	   alert('Congradulations, Player O Wins!')
 	   count = 0
 	   o_win++
 $('#o_win').text(o_win)
@@ -62,7 +62,7 @@ $('#o_win').text(o_win)
     $(this).addClass('disable x btn-info')
 	   if ($("#one").hasClass('x') && $("#two").hasClass('x') && $("#three").hasClass('x') || $("#four").hasClass('x') && $("#five").hasClass('x') && $("#six").hasClass('x') || $("#seven").hasClass('x') && $("#eight").hasClass('x') && $("#nine").hasClass('x') || $("#one").hasClass('x') && $("#four").hasClass('x') && $("#seven").hasClass('x') || $("#two").hasClass('x') && $("#five").hasClass('x') && $("#eight").hasClass('x') || $("#three").hasClass('x') && $("#six").hasClass('x') && $("#nine").hasClass('x') || $("#one").hasClass('x') && $("#five").hasClass('x') && $("#nine").hasClass('x') || $("#three").hasClass('x') && $("#five").hasClass('x') && $("#seven").hasClass('x'))
         {
-	 alert('X wins')
+	 alert('Congraduations, Player X Wins!')
 	 count = 0
 	 x_win++
 	 $('#x_win').text(x_win)
@@ -271,22 +271,26 @@ checkWin = function () { // CHECKS IF X WON
                 (b2 == "o")) && ((c2 == "x") || (c2 == "o")) && 
                 ((a3 == "x") || (a3 == "o")) && ((b3 == "x") || 
                 (b3 == "o")) && ((c3 == "x") || (c3 == "o"))) {
-                alert("It's a tie!");
+                alert("It's a Tie!");
                 alert = function(){};
-                alert("It's a tie!");
-                            }
-                        }
-                    }
-                };
+                alert("It's a Tie!");
+                }
+            }
+        }
+    };
 
 
 // DECLARES WHO WON
 var winAlert = function () {
     if (xWin == true) {
-        alert("You won!");
+        alert("Congradulations, you Win!");
+        alert = function(){};
+        alert("Congradulations, you Win!");
     } else {
         if (oWin == true) {
-            alert("Sorry, you lose!");
+            alert("Sorry, you Lose!");
+            alert = function(){};
+            alert("Sorry, you Lose!");
         }
     }
 };
@@ -310,7 +314,6 @@ var clearBoard = $('#restart').click(function (event) {
 });
 
 // STILL NEED TO FIX:
-// * Alert for tie game or xWin appears twice
 // * X's can replace O's
 // * Missed opportunities for O to win
 // * Almost never let's human win
