@@ -35,6 +35,5 @@
     <feature name="SocialSharing">
       <param name="wp-package" value="SocialSharing"/>
     </feature>
-
 </widget>
 
