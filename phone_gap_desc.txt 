@@ -1,0 +1,9 @@
+Social Sharing Plugin
+
+The first plugin that I was looking to use is the Phone Gap Social Sharing plugin. In order to get this plugin to work properly I will need to grab the Codrova Plugman, by pulling it from https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git If I do it this way then there is no need to add or change anything in my html as it will be brought in automatically. 
+
+In order to do it manually I'll need to adjust files in the config.xml file, as well as pull in the js for the plugin and link it onto my html. Using this I’ll need to add in manual buttons that link back to the plugin for customized features (i.e “Message only” or Message and subject” sharing options)
+
+Insomnia Plugin
+
+After installing the plugin, the plugin will run an if else statement which will state that if the app is running otherwise known as the ACTION_KEEP_AWAKE in the code then insomnia will stop your phone screen from falling asleep while if it is false then the phone will be allowed to have its screen off.
