@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://kanoelanidana.com/ns/1.0"
+        id          = "com.TicTacToe.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Tic Tac Toe</name>
+
+    <description>
+        Interactive 3 Application Assignment 
+    </description>
+
+    <author href="https://kanoelanidana.com" email="support@phonegap.com">
+        Kanoelani Dana 
+    </author>
+
+    <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8" />
+</widget>
+
